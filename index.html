@@ -154,7 +154,8 @@
                 class="d-sm-flex align-items-center justify-content-center justify-content-start"
               >
                 <!-- Button -->
-                <a href="#" class="btn btn-lg btn-primary me-2 mb-4 mb-sm-0"
+                <a href="#" class="btn btn-lg btn-primary me-2 mb-4 mb-sm-0" data-bs-toggle="modal"
+                data-bs-target="#form-banner"
                   >Aku Mau Join</a
                 >
                 <!-- Video button -->
@@ -911,7 +912,8 @@
              
             </div>
             <div class="col-12 text-lg-start text-md-start text-center mt-2">
-              <a href="#" class="btn btn-primary mt-2 mb-4 mb-sm-0 text-center">Download Silabus</a
+              <a href="#" class="btn btn-primary mt-2 mb-4 mb-sm-0 text-center" data-bs-toggle="modal"
+              data-bs-target="#form-download">Download Silabus</a
                 >
             </div>     
           </div>
@@ -3619,6 +3621,92 @@
       </div>
     </div>
     <!-- form batch manado modal end -->
+
+    <!-- form download start -->
+    <div
+      class="modal fade"
+      id="form-download"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="form-download"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="form-download">Form Download</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form name="download-form" method="post">
+            <div class="modal-body">
+              <div class="form-group mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Isi Nama Lengkap Anda"
+                  name="nama"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="nama@mail.com"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="phone" class="form-label">Nomor Telepon</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Isi Nomor Telepon atau Whatsapp"
+                  name="telepon"
+                  required
+                />
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button type="reset" class="btn btn-danger">Reset</button>
+              <button
+                type="submit"
+                class="btn btn-primary btn-send-download"
+                name="send"
+              >
+                Kirim
+              </button>
+              <button
+                class="btn btn-primary btn-loading-download d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- form download end -->
     <!-- Form End -->
 
     <!-- Bootstrap JS -->

@@ -6136,6 +6136,9 @@ body {
 nav {
   z-index: 999;
 }
+.navbar .nav-link {
+  color: #080809;
+}
 nav img {
   height: 36px;
 }

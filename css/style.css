@@ -6155,12 +6155,15 @@ nav img {
   background-color: rgba(6, 0, 201, 0.2);
 }
 .banner {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
+}
+.banner .skew-1 {
+  margin-top: -20vh;
 }
 .banner .banner-title {
   font-family: "DM Serif Display", sans-serif !important;
@@ -6239,6 +6242,9 @@ nav img {
   object-fit: cover;
   opacity: 0.6;
   transition: transform 0.75s; */
+}
+.country .card-body {
+  padding: 0;
 }
 
 .card-big-shadow {
@@ -6402,9 +6408,9 @@ a:focus {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   color: #fff;
 } */
-.country #tns1 > .tns-item {
+/* .country #tns1 > .tns-item {
   padding: 10px;
-}
+} */
 .country-slider img {
   width: 100%;
   margin: auto;
@@ -6632,6 +6638,9 @@ footer .nav-link {
   .banner {
     height: 60vh;
   }
+  .banner .skew-1 {
+    margin-top: 0;
+  }
   .banner .banner-title {
     margin-top: -10vh;
   }
@@ -6708,6 +6717,9 @@ footer .nav-link {
   }
   .banner {
     height: 90vh;
+  }
+  .banner .skew-1 {
+    margin-top: 0;
   }
   .banner .banner-title {
     margin-top: -20vh;

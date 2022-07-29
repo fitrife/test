@@ -1,0 +1,94 @@
+<!-- Example Start -->
+<section class="training">
+  <div class="container position-relative">
+    <!-- Title -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 class="fs-1 fw-bold subtitle">
+          Next <span class="fw-bold">Section</span>
+        </h2>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center m-auto">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/background.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title p-0 bg-primary">Card title</h5>
+            <div class="scrollable">
+              <p class="card-text">
+                This portion and only this portion will have a very long text so
+                much so that the vertical scroll bar may appear when required.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                congue neque et sollicitudin blandit. Vivamus vestibulum sed
+                mauris a volutpat. Etiam quis arcu dictum, scelerisque ex sit
+                amet, egestas eros. Sed convallis consectetur mauris, at
+                fringilla mi gravida eu. Vivamus eu sagittis nulla. Vestibulum
+                lobortis pretium metus, ut mattis libero aliquet ut. Sed
+                facilisis elementum dolor. Suspendisse euismod nunc malesuada,
+                laoreet lectus egestas, auctor ex. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aenean egestas odio nec ex suscipit
+                vestibulum. Class aptent taciti sociosqu ad litora torquent per
+                conubia nostra, per inceptos himenaeos. Nunc bibendum turpis
+                eget erat volutpat, vel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/background.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title p-0 bg-primary">Card title</h5>
+            <div class="scrollable">
+              <p class="card-text">
+                This portion and only this portion will have a very long text so
+                much so that the vertical scroll bar may appear when required.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                congue neque et sollicitudin blandit. Vivamus vestibulum sed
+                mauris a volutpat. Etiam quis arcu dictum, scelerisque ex sit
+                amet, egestas eros. Sed convallis consectetur mauris, at
+                fringilla mi gravida eu. Vivamus eu sagittis nulla. Vestibulum
+                lobortis pretium metus, ut mattis libero aliquet ut. Sed
+                facilisis elementum dolor. Suspendisse euismod nunc malesuada,
+                laoreet lectus egestas, auctor ex. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aenean egestas odio nec ex suscipit
+                vestibulum. Class aptent taciti sociosqu ad litora torquent per
+                conubia nostra, per inceptos himenaeos. Nunc bibendum turpis
+                eget erat volutpat, vel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/background.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title p-0 bg-primary">Card title</h5>
+            <div class="scrollable">
+              <p class="card-text">
+                This portion and only this portion will have a very long text so
+                much so that the vertical scroll bar may appear when required.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                congue neque et sollicitudin blandit. Vivamus vestibulum sed
+                mauris a volutpat. Etiam quis arcu dictum, scelerisque ex sit
+                amet, egestas eros. Sed convallis consectetur mauris, at
+                fringilla mi gravida eu. Vivamus eu sagittis nulla. Vestibulum
+                lobortis pretium metus, ut mattis libero aliquet ut. Sed
+                facilisis elementum dolor. Suspendisse euismod nunc malesuada,
+                laoreet lectus egestas, auctor ex. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aenean egestas odio nec ex suscipit
+                vestibulum. Class aptent taciti sociosqu ad litora torquent per
+                conubia nostra, per inceptos himenaeos. Nunc bibendum turpis
+                eget erat volutpat, vel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Example End -->
